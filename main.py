@@ -1,16 +1,3 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-# Use a breakpoint in the code line below to debug your script.
-
-
-# Press the green button in the gutter to run the script.
-
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
 def main():
     first_board = [[], [], [], [], [], [], [], [], [], []]
     for g in range(0, 10):
@@ -34,7 +21,6 @@ def main():
     first_board = dead_or_life_condition(first_board)
     z = (input())
     first_board = dead_or_life_condition(first_board)
-
 
 
 def dead_or_life_condition(board):
@@ -75,7 +61,6 @@ def print_board(a):
         for n in range(len(a[m])):
             print(a[m][n], end=' ')
         print()
-
 
 
 if __name__ == "__main__":
